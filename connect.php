@@ -2,7 +2,7 @@
 $l="localhost";
 $u="root";
 $p="";
-$db="hmsdb";
+$db="hospital";
 $con=mysqli_connect($l,$u,$p,$db);
 if (!$con)
 {
